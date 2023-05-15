@@ -6,18 +6,18 @@ pub fun main() {
   /**************/
 
     //pub(set)
-    SomeContract.testStruct.a="2"
+    SomeContract.testStruct.a="FLOW"
     let variableA = SomeContract.testStruct.a
 
     //pub/access(all)
-    //SomeContract.testStruct.b="2"
+    //SomeContract.testStruct.b="FLOW"
     let variableB = SomeContract.testStruct.b
 
     //access(contract)
-    //SomeContract.testStruct.c="2"
+    //SomeContract.testStruct.c="FLOW"
     //let variableC = SomeContract.testStruct.c
 
     //access(self)
-    //SomeContract.testStruct.d="2"
+    //SomeContract.testStruct.d="FLOW"
     //let variableD = SomeContract.testStruct.d
 }
